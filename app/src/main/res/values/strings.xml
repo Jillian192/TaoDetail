@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">basemodule</string>
+    <string name="home_add_your_card">加入购物车</string>
+    <string name="home_buy_at_once">立即购买</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="common_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/common_colorPrimary</item>
+            <item name="colorPrimaryDark">@color/common_colorPrimaryDark</item>
+            <item name="colorAccent">@color/common_colorAccent</item>
+        </style>
+
+
+        <style name="common_dialog_Theme" parent="@android:style/Theme.Dialog">
+            <item name="android:windowFrame">@null</item><!--边框-->
+            <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+            <item name="android:windowIsTranslucent">true</item><!--半透明-->
+            <item name="android:windowNoTitle">true</item><!--无标题-->
+            <item name="android:windowBackground">@color/common_color_transparent_00</item><!--背景透明-->
+            <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+        </style>
+
+
+
+
+
+</resources>

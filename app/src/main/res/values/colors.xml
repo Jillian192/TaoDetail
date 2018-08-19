@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_color_white">#ffffffff</color>
+    <color name="common_color_text_white">#ffffffff</color>
+
+    <color name="common_color_black">#ff000000</color>
+    <color name="common_color_text_black">#ff000000</color>
+
+    <color name="common_colorPrimary">#3F51B5</color>
+    <color name="common_colorPrimaryDark">#303F9F</color>
+    <color name="common_colorAccent">#FF4081</color>
+
+    <color name="common_color_line_gray">#e2e2e2</color>
+    <color name="common_color_gray">#828282</color>
+    <color name="common_color_text_gray">#b2b2b2</color>
+
+    <!--<color name="common_color_blue">#017bd7</color>
+    <color name="common_color_text_blue">#017bd7</color>
+    <color name="common_color_blue_unselected">#128cdc</color>-->
+
+    <color name="common_color_blue">#4294f7</color>
+    <color name="common_color_text_blue">#4294f7</color>
+    <color name="common_color_blue_unselected">#dcdcdc</color>
+
+    <!--mine-->
+
+    <!--<color name="common_color_line_gray_ed">#EDEDED</color>-->
+    <!--<color name="common_color_line_gray_dd">#DDDDDD</color>d-->
+    <!--<color name="common_color_line_gray_aa">#AAAAAA</color>d-->
+    <!--<color name="common_color_text_black_33">#333333</color>-->
+    <!--<color name="common_color_text_red_2d">#F72D2D</color>-->
+    <!--<color name="common_color_bg_white_F6">#F6F6F6</color>-->
+    <!--<color name="common_color_white_FF">#ffffffff</color>-->
+    <!--<color name="common_color_bg_white_f6">#f6f6f6f6</color>-->
+    <!--<color name="common_color_bg_white_aa">#FFAAAAAA</color>-->
+    <!--<color name="common_color__line_orange_00">#EC6C00</color>-->
+    <!--<color name="common_color_text_orange_00">#EC6C00</color>-->
+    <!--<color name="common_color_text_gray_99">#999999</color>-->
+
+    <color name="common_color_transparent_00">#00000000</color>
+    <color name="common_color_red_2D">#FFF72D2D</color>
+    <color name="common_color_black_1A">#FF1A1A1A</color>
+    <color name="common_color_black_33">#FF333333</color>
+    <color name="common_color_black_00">#FF000000</color>
+    <color name="common_color_orange_00">#FFEC6C00</color>
+    <color name="common_color_orange_3C">#FFF4903C</color>
+    <color name="common_color_orange_37">#FFFF3737</color>
+    <color name="common_color_gray_66">#FF666666</color>
+    <color name="common_color_gray_99">#FF999999</color>
+    <color name="common_color_gray_AA">#FFAAAAAA</color>
+    <color name="common_color_gray_ED">#FFEDEDED</color>
+    <color name="common_color_gray_DD">#FFDDDDDD</color>
+    <color name="common_color_gray_F5">#F5F5F5</color>
+    <color name="common_color_gray_F6">#F6F6F6 </color>
+    <color name="common_color_gray_CC">#CCCCCC</color>
+    <color name="common_color_red_54">#F85454</color>
+    <color name="common_color_white_FF">#ffffffff</color>
+
+</resources>
