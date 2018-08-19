@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/home_detail_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="@dimen/common_dimens_0dp">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_dimens_200dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/home_detail_iv_tt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimens_200dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/home_ic_back" />
+
+            <!--标题 -->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/home_detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_dimens_80dp"
+                android:background="@color/common_color_white_FF"
+                android:fitsSystemWindows="true"
+                app:contentInsetStart="@dimen/common_dimens_0dp"
+                app:layout_collapseMode="pin">
+
+                <RelativeLayout
+                    android:id="@+id/home_detail_relayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/common_color_white_FF"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/home_detail_iv_back"
+                        android:layout_width="@dimen/common_dimens_20dp"
+                        android:layout_height="@dimen/common_dimens_16dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/common_dimens_15dp"
+                        android:src="@mipmap/home_ic_back_arrow" />
+
+                    <ImageView
+                        android:id="@+id/home_detail_iv_share"
+                        android:layout_width="@dimen/common_dimens_18dp"
+                        android:layout_height="@dimen/common_dimens_18dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/common_dimens_20dp"
+                        android:src="@mipmap/home_ic_share" />
+
+                    <TextView
+                        android:id="@+id/home_detail_tv_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="商品"
+                        android:textSize="@dimen/common_dimens_18sp" />
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/home_detail_tab"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/common_dimens_30dp"
+                        android:layout_alignParentBottom="true"
+                        app:tabBackground="@color/common_color_transparent_00"
+                        app:tabIndicatorColor="@color/common_color_transparent_00" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/home_detail_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <LinearLayout
+        android:id="@+id/home_status_bar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dimens_50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/common_color_white_FF"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/common_dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/common_dimens_5dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/common_dimens_0dp"
+                android:layout_height="@dimen/common_dimens_25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/home_ic_detail_home" />
+
+            <ImageView
+                android:layout_width="@dimen/common_dimens_0dp"
+                android:layout_height="@dimen/common_dimens_25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/home_customer_service" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/common_dimens_25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/home_detail_shopping_cart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/common_dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="@dimen/common_dimens_0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/common_dimens_5dp"
+                android:layout_weight="1"
+                android:background="@color/common_color_black_33"
+                android:text="@string/home_add_your_card"
+                android:textColor="@color/common_color_white_FF"
+                android:textSize="@dimen/common_dimens_14sp" />
+
+            <Button
+                android:layout_width="@dimen/common_dimens_0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/common_dimens_5dp"
+                android:layout_weight="1"
+                android:background="@color/common_color_orange_00"
+                android:text="@string/home_buy_at_once"
+                android:textColor="@color/common_color_white_FF"
+                android:textSize="@dimen/common_dimens_14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
