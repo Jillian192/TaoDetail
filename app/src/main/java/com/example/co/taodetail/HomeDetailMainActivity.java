@@ -130,6 +130,7 @@ public class HomeDetailMainActivity extends AppCompatActivity {
                     layoutManager.setStackFromEnd(false);
                 }
                 mYDy = true;
+                mAppBarLayout.setExpanded(false);
 //                layoutManager.scrollToPositionWithOffset(tabPosition, 0);
 //                layoutManager.setStackFromEnd(true);
             }
